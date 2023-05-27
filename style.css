@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+   
+}
+/*   header part    */
+header{
+    height: 50px;
+    width: 80%;
+    background: #32abfc;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+
+nav{
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    flex: 1;
+    text-align: right;
+}
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+}
+nav h3{
+    text-transform: uppercase;
+    color: #fff;
+  
+}
+
+/*   header part    */
+.menu_part {
+    height: 20px;
+    width: 80%;
+    margin-left:42%;
+    color: #777;
+    font-size: 50px;
+ 
+
+}
+          /*----Hero part Start----*/
+
+.hero_part{
+    height:600px;
+    width: 80%;
+    background-image: url('asset/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-left:10%;
+   
+}
+.hero_part h1{
+    color: #fff;
+    padding-top: 8%;
+    font-size: 70px;
+
+}
+.hero_part p{
+    color: #d4d4d4;
+    margin-top:30px;
+    font-size: 25px;
+
+}
+.hero_part a{
+    color: #c2c0c0;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid #15A4FA;
+   
+}
+.icon a{
+    color: #fff;
+    margin-top:1%;
+    padding: 10px;
+
+}
+.icon{
+    color: #fdfcfc;
+    margin-top:8%;
+}
+     /*----Hero part Start----*/
+
+
+     /*----Design part Start----*/
+.design-part{
+    height: 400px;
+    width: 80%;
+    text-align: center;
+    margin:10%;
+    background: #cfcece; 
+}
+.design-part h1 {
+    color: #4b4a4a;
+    margin: 6%; 
+    text-align: center;
+    margin-left: ;
+    padding-top: 7%;
+}
+.design-part p {
+    color: #535353;
+  margin-top: 40px;
+  padding: 0 120px;
+  line-height: 25px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+
+     /*----Design part end----*/
+
+
+     /*----service part start----*/
+.service-part{
+    width: 80%;
+    height:200px;
+    margin: 20px;
+    text-align: center;
+    margin-left: 10%;
+}
+.row{
+    display: flex;
+}
+.col-4{
+    padding: 30px;
+    color: #777;
+ 
+   
+}
+.service_icon img{
+    text-align: center;
+    background: #15A4FA;
+    padding: 10px 7%;
+    color: #fff;
+}
+.service_icon h2{
+    font-size: 5px;
+ 
+}
+.service_icon p{
+    margin-top: 25px;
+}
+     /*----service part end----*/
+
+     /*----contact part start----*/
+
+.contact_part{
+   width: 80%;
+   height:auto;
+   padding: 3%;
+   text-align: center;
+}
+.contact_part h1{
+    text-align: center;
+    color: #777;
+
+}
+.contact_part p{
+    text-align: center;
+    color: #777;
+    margin-top: 15px;
+
+}
+
+
+
+
+     /*----contact part end----*/
+
+
+
+     /*----Table part start----*/
+.table_part{
+    width: 80%;
+    height:500px;
+    padding-top:5%;
+    margin-left: 10%;
+    text-align: center;
+    background-image: url('asset/fotter-bg.jpg');
+} 
+
+.table_part h1{
+    color: #fff;
+
+    
+}
+.table_part p{
+    color: #777;
+    margin: 15px;
+
+}
+
+
+form textarea{
+    color: #dad8d8;
+    width: 400px;
+    background: #2E394D;
+    margin: 10px;
+
+
+}
+form input{
+    width: 400px;
+    padding-top: 10px;
+    align-items: center;
+    background: #2E394D;
+    margin: 5px;
+    color: #cacaca; 
+}   
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(71, 169, 248);
+    padding: 4px 46px;
+    
+}
+
+
+/*----Table part end----*/
+
+
+/*----fotter part start----*/
+.fotter-Part{
+    height: 50px;
+    width: 80%;
+    background: #4b5361;
+    margin-top: 5px;
+  
+}
+.fotter-Part{
+    text-align: center;
+    margin-left: 10%;
+    color: #cacaca;
+    padding-top:35px;
+    font-size:22px;
+}
+/*----fotter part end----*/
